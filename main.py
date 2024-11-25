@@ -1,8 +1,8 @@
 int_ = 31 #ist ein Integer
-float = 31.2 #ist eine Float
-str = "Hallo" #ist ein String
-bool = True #ist ein Boolean
-list = ["Hallo", "Tschüss"] #ist eine Liste
+float_ = 31.2 #ist eine Float
+str_ = "Hallo" #ist ein String
+bool_ = True #ist ein Boolean
+list_ = ["Hallo", "Tschüss"] #ist eine Liste
 numlist = [32, 69, 15, 722]
 
 if int_ > 30: #Namensräume
@@ -29,10 +29,10 @@ def äußere_funktion(): #äußere Funktion
     print("Wert der Zahl nach dem Aufruf der inneren Funktion:", zahl)
 äußere_funktion()
 
-x = len(list)
+x = len(list_)
 print(x)
 
-y = type(float)
+y = type(float_)
 print (y)
 
 a = sum(numlist)
